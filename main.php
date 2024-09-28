@@ -9,7 +9,7 @@ date_default_timezone_set("Asia/Manila");
 set_time_limit(1000);
 
 $rootPath = $_SERVER["DOCUMENT_ROOT"];
-$apiPath = $rootPath . "/crud_table_api";
+$apiPath = $rootPath . "/Angeles_api";
 
 require_once($apiPath .'/config/Connection.php');
 
